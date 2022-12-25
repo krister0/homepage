@@ -3,11 +3,11 @@ body {margin: 0;
 
   span.body {font-kerning: none;font: 13.0px 'helvetica'; color: #ffff}
   span.fagfunk {font: 11.0px 'Helvetica'; font-kerning: none; color: #ffff}
-  span.tittel {font-kerning: none;font: 270.0px 'HELVETICA'; color: #ffff; margin-left: 30%; margin-top: 10px;}
+  span.tittel {font-kerning: none;font: 40.0px 'HELVETICA'; color: #ffff; margin-left: 10%; margin-top: 10px;}
   span.kontakt {font-kerning: none;font: 12.0px 'HELVETICA'; color: #ffff; position: relative; top: 20px; left: 50%;}
 
   .scroll-left {
-    top: 930px;
+    top: 170px;
     left: 0px;
     height: 50px;
     border: black;
@@ -54,19 +54,18 @@ body {margin: 0;
     }
    }
 
-
-
-   .reddbarnamedbrødtekst {
+  .enkleremåte {
     position: relative;
-    top: 10px;
+    top: 100px;
+    left: 500px;
+    }
+
+   .reddbarnabrødtekst {
+    position: absolute;
+    top: 580px;
     right: 1300px;
     text-align: right;
   }
-  .enkleremåte {
-position: relative;
-top: 100px;
-left: 500px;
-}
 
 
 
