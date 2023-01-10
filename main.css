@@ -6,53 +6,32 @@ body {margin: 0;
   span.tittel {font-kerning: none;font: 40.0px 'HELVETICA'; color: #ffff; margin-left: 10%; margin-top: 10px;}
   span.kontakt {font-kerning: none;font: 12.0px 'HELVETICA'; color: #ffff; position: relative; top: 20px; left: 50%;}
 
-  .scroll-left {
-    top: 170px;
-    left: 0px;
-    height: 50px;
-    border: black;
-    width: 1610px;	
-    overflow:auto;
-    position: absolute;
-   }
-   .scroll-left p {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    line-height: 50px;
-    text-align: center;
+  a:link {
     color: white;
-    /* Starting position */
-    -moz-transform:translateX(100%);
-    -webkit-transform:translateX(100%);	
-    transform:translateX(100%);
-    /* Apply animation to this element */	
-    -moz-animation: scroll-left 35s linear infinite;
-    -webkit-animation: scroll-left 35s linear infinite;
-    animation: scroll-left 35s linear infinite;
-   }
-   /* Move it (define the animation) */
-   @-moz-keyframes scroll-left {
-    0%   { -moz-transform: translateX(100%); }
-    100% { -moz-transform: translateX(-100%); }
-   }
-   @-webkit-keyframes scroll-left {
-    0%   { -webkit-transform: translateX(100%); }
-    100% { -webkit-transform: translateX(-100%); }
-   }
-   @keyframes scroll-left {
-    0%   { 
-    -moz-transform: translateX(100%); /* Browser bug fix */
-    -webkit-transform: translateX(100%); /* Browser bug fix */
-    transform: translateX(100%); 		
-    }
-    100% { 
-    -moz-transform: translateX(-100%); /* Browser bug fix */
-    -webkit-transform: translateX(-100%); /* Browser bug fix */
-    transform: translateX(-100%); 
-    }
-   }
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.meny {
+  position: relative;
+  top: 5px;
+  left: 50%;
+  }
 
   .enkleremåte {
     position: relative;
@@ -61,30 +40,29 @@ body {margin: 0;
     }
 
    .reddbarnabrødtekst {
-    position: absolute;
-    top: 580px;
+    position: relative;
+    top: 0px;
     right: 1300px;
     text-align: right;
   }
 
 
-
 .midnattsol {
 position: relative;
-top: 250px;
+top: 150px;
 left: 500px;
 }
 
 .midnattsolbrødtekst {
-position: absolute;
-top: 320px;
-left: 850px;
+position: relative;
+top: 20px;
+left: 1350px;
 text-align: left;
 }
 .image-grid{
-    position: absolute;
-    margin-top: 450px;
-    margin-left: 10px;
+    position: relative;
+    top: 150px;
+    left: 2px;
 --gap: 25px;
 --num-cols: 3;
 
