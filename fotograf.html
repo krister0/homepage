@@ -4,7 +4,7 @@
     <Title> Fotograf</Title>
 <style>
     body {margin: 0;
-    background-color: #040404}
+    background-color: #000000}
     span.body {font-kerning: none;font: 13.0px 'helvetica'; color: #ffff}
   span.fagfunk {font: 11.0px 'Helvetica'; font-kerning: none; color: #ffff}
   span.tittel {font-kerning: none;font: 40.0px 'HELVETICA'; color: #ffff; margin-left: 10%; margin-top: 10px;}
@@ -19,6 +19,7 @@
     color: white;
     background-color: transparent;
     text-decoration: none;
+    
   }
   a:hover {
     color: orange;
@@ -32,8 +33,8 @@
   }
   .meny {
   position: relative;
-  top: 5px;
-  left: 50%;
+  top: 0px;
+  left: 25%;
   }
 
   .image-grid{
@@ -53,10 +54,15 @@ gap: var(--gap);
 }
 
 .image-grid > img {
+  width: 300px;
     height: auto;
-    object-fit: cover;
+    object-fit: fill;
 }
-
+.edit{
+  position: relative;
+  left: 250px;
+    object-fit: fill;
+}
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Krister Hammer Andersen">
@@ -65,14 +71,15 @@ gap: var(--gap);
     <h3><span class="kontakt">KRISTER.H.ANDERSEN@GMAIL.COM </span></h3>
     <h1><span class="tittel"><a href="index.html">KRISTER <br>HAMMER ANDERSEN</a></span></h1>
     <div class="meny"><span class="body">
-        <p><a href="regissør.html">REGISSØR</a> - <a href="forfatter.html"> (MANUS)FORFATTER </a> - <a href="klipper.html">KLIPPER</a> - <a href="fotograf.html">(FILM)FOTOGRAF</a> - <a href="grafiskdesigner.html">GRAFISK DESIGNER</a> - <a href="https://www.instagram.com/krister0/">INFLUENSER</a> - TROMSØVÆRING - POINT GUARD </p> </span>
+        <p><a href="regissør.html">REGISSØR</a> - <a> (MANUS)FORFATTER </a> - <a href="klipper.html">KLIPPER</a> - <a href="fotograf.html">(FILM)FOTOGRAF</a> - 
+          <a>GRAFISK DESIGNER</a> - <a href="https://www.instagram.com/krister0/">INFLUENSER</a> - TROMSØVÆRING - POINT GUARD </p> </span>
         </div>
-
+<div class="edit">
         <video width="820" height="422" controls>
             <source src="house 2022_16x9lowqual.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video>
-
+        </div>
         <div class="image-grid">
           <img src="IMG_4016.jpg" alt="famous" width="500" height="auto">
           <img src="20220627_005853.jpg" alt="sinna" width="483" height="auto">

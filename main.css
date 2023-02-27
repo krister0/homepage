@@ -1,5 +1,5 @@
 body {margin: 0;
-    background-color: #040404}
+    background-color: #000000}
 
   span.body {font-kerning: none;font: 13.0px 'helvetica'; color: #ffff}
   span.fagfunk {font: 11.0px 'Helvetica'; font-kerning: none; color: #ffff}
@@ -29,8 +29,8 @@ body {margin: 0;
 
 .meny {
   position: relative;
-  top: 5px;
-  left: 50%;
+  top: 0px;
+  left: 25%;
   }
 
   .enkleremåte {
@@ -40,12 +40,17 @@ body {margin: 0;
     }
 
    .reddbarnabrødtekst {
-    position: relative;
-    top: 0px;
-    right: 1300px;
-    text-align: right;
+    position: absolute;
+  top: 500px;
+  left: 220px;
+  text-align: right;
   }
 
+  .showr {
+    position: relative;
+    top: 150px;
+    left: 500px;
+    }
 
 .midnattsol {
 position: relative;
@@ -54,9 +59,9 @@ left: 500px;
 }
 
 .midnattsolbrødtekst {
-position: relative;
-top: 20px;
-left: 1350px;
+position: absolute;
+top: 860px;
+left: 1150px;
 text-align: left;
 }
 .image-grid{
