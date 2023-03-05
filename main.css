@@ -84,3 +84,13 @@ gap: var(--gap);
     height: auto;
     object-fit: cover;
 }
+
+.vrakrester{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
