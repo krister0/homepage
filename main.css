@@ -50,8 +50,13 @@ body {margin: 0;
   .showr {
     position: relative;
     top: 120px;
-    left: 500px;
+    left: 400px;
     }
+    .tviledikt {
+      position: relative;
+      top: 90px;
+      left: 400px;
+      }
 
 .midnattsol {
 position: relative;
@@ -86,19 +91,3 @@ gap: var(--gap);
     object-fit: cover;
 }
 
-.vrakrester{
-  display: block;
-  width: 70%;
-  height: auto;
-  margin-top: 75px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.Satsbrødtekst {
-  position: absolute;
-  top: 50px;
-  left: 1150px;
-  text-align: left;
-  }
