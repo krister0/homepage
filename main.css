@@ -5,7 +5,7 @@ body {margin: 0;
   span.fagfunk {font: 11.0px 'Helvetica'; font-kerning: none; color: #ffff}
   span.tittel {font-kerning: none;font: 40.0px 'HELVETICA'; color: #ffff; margin-left: 10%; margin-top: 10px;}
   span.kontakt {font-kerning: none;font: 12.0px 'HELVETICA'; color: #ffff; position: relative; top: 20px; left: 50%;}
-  span.eng {font-kerning: none;font: 12.0px 'HELVETICA'; color: #ffff; position: relative; top: 20px; left: 90%;}
+  span.eng {font-kerning: none;font: 13.0px 'HELVETICA'; color: #ffff; position: relative; top: 20px; left: 90%;}
 
   a:link {
     color: white;
@@ -95,3 +95,10 @@ gap: var(--gap);
   margin-right: auto;
 
 }
+
+.Satsbrødtekst {
+  position: absolute;
+  top: 50px;
+  left: 1150px;
+  text-align: left;
+  }
