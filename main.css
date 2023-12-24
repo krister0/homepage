@@ -34,19 +34,6 @@ body {margin: 0;
   left: 25%;
   }
 
-  .enkleremåte {
-    position: relative;
-    top: 100px;
-    left: 500px;
-    }
-
-   .reddbarnabrødtekst {
-    position: absolute;
-  top: 500px;
-  left: 220px;
-  text-align: right;
-  }
-
   .showr {
     position: relative;
     top: 120px;
@@ -58,18 +45,6 @@ body {margin: 0;
       left: 400px;
       }
 
-.midnattsol {
-position: relative;
-top: 150px;
-left: 500px;
-}
-
-.midnattsolbrødtekst {
-position: absolute;
-top: 860px;
-left: 1150px;
-text-align: left;
-}
 .image-grid{
     position: relative;
     top: 150px;
