@@ -1,10 +1,10 @@
 body {margin: 0;
-    background-color: #000000}
+    background-color: #a60505}
 
-  span.body {font-kerning: none;font: 13.0px 'helvetica'; color: #ffff}
+  span.body {font-kerning: none;font: 16.0px 'helvetica'; color: #ffff}
   span.fagfunk {font: 11.0px 'Helvetica'; font-kerning: none; color: #ffff}
   span.tittel {font-kerning: none;font: 40.0px 'HELVETICA'; color: #ffff; margin-left: 10%; margin-top: 10px;}
-  span.kontakt {font-kerning: none;font: 12.0px 'HELVETICA'; color: #ffff; position: relative; top: 20px; left: 50%;}
+  span.kontakt {font-kerning: none;font: 12.0px 'HELVETICA'; color: #ffff; position: relative; top: 20px; left: 40%;}
   span.eng {font-kerning: none;font: 13.0px 'HELVETICA'; color: #ffff; position: relative; top: 20px; left: 90%;}
 
   a:link {
@@ -18,7 +18,7 @@ body {margin: 0;
     text-decoration: none;
   }
   a:hover {
-    color: orange;
+    color: rgb(106, 0, 255);
     background-color: transparent;
     text-decoration: underline;
   }
